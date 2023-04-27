@@ -1,0 +1,64 @@
+.navigation-bar {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+}
+.separador {
+    color:gray;
+}
+.navigation-bar li {
+     display:inline;
+     padding-left:3px;
+     padding-right:3px;
+    background-color:black;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+a:hover {
+    color:black;
+    background-color:lightgray;
+}
+.titulos {
+font-size: 2rem;
+text-align: center;
+}
+.subtitulo {
+font-family: 'Playfair Display', serif;
+font-weight: 800;
+font-size: large;
+display: flex;
+align-items: center;
+}
+.ruta {
+text-align: center;
+}
+.parrafo {
+text-align: center;
+}
+
+.producto img{
+display: flex;
+justify-content: center;
+padding-left: 15px;
+border-radius: 100px;
+width: 150px;
+height: 150px;
+
+}
+#destacados{
+text-align: center;
+font-size: 4rem;
+padding-top: 40px;
+padding-bottom: 60px;
+
+}
+ /* 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; 
+*/
+
+  
