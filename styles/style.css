@@ -1,29 +1,21 @@
-.navigation-bar {
-    font-family:Arial;
-    font-weight:bold;
-    font-size:13px;
-}
-.separador {
-    color:gray;
-}
-.navigation-bar li {
-     display:inline;
-     padding-left:3px;
-     padding-right:3px;
-    background-color:black;
-}
-a {
-    color:white;
-    text-decoration:none;
-}
-a:hover {
-    color:black;
-    background-color:lightgray;
-}
 .titulos {
 font-size: 2rem;
 text-align: center;
 }
+.navbar-brand img{
+    padding: 20px;
+    width: 25vh
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.active
+{
+    font-weight: 600;
+}
+
 .subtitulo {
 font-family: 'Playfair Display', serif;
 font-weight: 800;
@@ -33,6 +25,8 @@ align-items: center;
 }
 .ruta {
 text-align: center;
+font-size: 1.5rem;
+padding-bottom: 30px;
 }
 .parrafo {
 text-align: center;
@@ -49,10 +43,12 @@ height: 150px;
 }
 #destacados{
 text-align: center;
-font-size: 4rem;
+text-size-adjust: 2rem;
 padding-top: 40px;
 padding-bottom: 60px;
-
+}
+.prefooter {
+    padding-bottom: 25px;
 }
  /* 
 font-family: 'Lato', sans-serif;
